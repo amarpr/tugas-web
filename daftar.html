@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery1.js"></script>
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+     <!--  <div class="container">
+          <input id="input1" type="text" name="inputnama" placeholder="nama">
+          <input id="input2" type="text" name="inputalamat" placeholder="alamat">
+          <input id="input3" type="text" name="inputnohp" placeholder="nohp">
+          <br><br>
+          <button id="button1">lihat</button>
+           <button id="btn" onclick="alert('Oke')">Save</button>
+      </div> -->
+
+
+      <div class="container">
+          <center><h1>Pendaftaran Online</h1>
+          <h5><i>mutiaraharapan</i></h5></center>
+          <hr>
+        <div class="row">         
+<!-- KETERANGAN DIRI CALON SISWA -->
+          <div class="col-12 col-sm-6 col-md-6" style="padding: 20px">
+             <h5>KETERANGAN DIRI CALON SISWA</h5>
+            <form method="post" class="form border"style="padding: 20px">
+              <div class="form-group">
+                   <label>NIS</label>
+                   <input id="input1" type="number" class="form-control"  aria-describedby="emailHelp" placeholder="Nomor Induk Siswa">    
+              </div>
+
+              <div class="form-group">
+                   <label>Nama</label>
+                   <input id="input2" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Nama Anda">    
+              </div>
+
+               <div class="form-group">
+                   <label>Tanggal Lahir</label>
+                   <input id="input3" type="text" class="form-control" aria-describedby="emailHelp" placeholder="dd/mm/yyyy">    
+              </div>
+              <div class="form-check" >
+              <label >Jenis Kelamin</label>
+              <br>
+                <input class="form-check-input" id="input4" type="radio" name="jk" value="Laki-Laki"> Laki-Laki
+                &ensp;&ensp;
+                 <input class="form-check-input" id="jk"  type="radio" name="jk"  value="Perempuan"> Perempuan
+             </div>
+
+              <div class="form-group">
+                   <label>Alamat</label>
+                   <textarea id="input5" type="textarea" class="form-control" placeholder="Alamat Anda"> </textarea>  
+              </div>
+
+              <div class="form-group">
+                   <label>No Hp</label>
+                   <input id="input6" type="number" class="form-control"  aria-describedby="emailHelp" placeholder="0822XXXXXX">    
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputEmail1">Agama:</label>
+                  <select class="custom-select" id="input7">
+                      <option value="">- Pilih Agama -</option>
+                      <option value="islam">Islam</option>
+                      <option value="kristen">Kristen</option>
+                      <option value="hindu">Hindu</option>
+                      <option value="budha">Budha</option>
+                  </select>   
+              </div>
+
+              <div class="form-group">
+                   <label>Nama Orang Tua</label>
+                   <input id="input8" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Nama Ortu">    
+              </div>
+
+              <div class="form-group">
+                   <label>Pekerjaan Orang Tua</label>
+                   <select class="custom-select" id="input9">
+                    <option value="">- Pilih -</option>
+                    <option value="Pegawai">Pegawai</option>
+                    <option value="PNS">PNS</option>
+                    <option value="Wiraswasta">Wiraswasta</option>
+                    <option value="Lain-Lain">Lain-Lain</option>
+                  </select>      
+              </div>
+          </form>
+          </div>
+
+
+<!-- PILIH KELAS ATAU JURUSAN -->
+          <div class="col-12 col-sm-6 col-md-6" style="padding: 20px">
+            <h5>PILIH KELAS ATAU JURUSAN</h5>
+            <form method="post" class="form border"style="padding: 20px">
+              <div class="form-group">
+                   <label for="exampleInputEmail1">Status Pendaftaran:</label>
+                  <select class="custom-select" id="input10">
+                      <option value="">- Pilih Status Daftar -</option>
+                      <option value="BARU">Daftar Baru</option>
+                      <option value="PINDAHAN">Daftar Pindahan</option>
+                  </select>    
+              </div>
+
+              <div class="form-group">
+                   <label for="exampleInputEmail1">Asal Sekolah</label>
+                   <input id="input11" type="textarea" class="form-control"  aria-describedby="emailHelp" placeholder="Asal sekolah">    
+              </div>
+
+              <div class="form-group">
+                   <label for="exampleInputEmail1">Alamat Sekolah</label>
+                   <textarea id="input12" type="number" class="form-control"  aria-describedby="emailHelp" placeholder="Alamat Sekolah"></textarea>    
+              </div>
+
+             </form>
+            <br>
+            <button id="simpan" type="submit" class="btn btn-primary">Daftar</button>
+          </div>
+
+
+        </div>
+      </div>
+ 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  </body>
+</html>
